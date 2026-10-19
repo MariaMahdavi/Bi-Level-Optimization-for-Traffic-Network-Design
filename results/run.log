@@ -1,0 +1,8 @@
+Braess: [{'bridge': False, 'flows': [2000.0, 2000.0, 2000.0, 2000.0], 'avg_time_min': 65.000000001}, {'bridge': True, 'flows': [4000.0, 0.0, 0.0, 4000.0, 4000.0], 'avg_time_min': 80.000001002}]
+Equilibrium: {'ue_tstt': 7480225.303954644, 'ue_gap': 4.923444128658539e-10, 'ue_iterations': 300, 'ue_beckmann': 4231335.287107438, 'cfw_gap_after_1000': 2.56309094284663e-05, 'so_tstt': 7194256.052892984, 'so_gap': 8.581440487631852e-11, 'price_of_anarchy': 1.0397496626418608}
+  uniform: TSTT=6,532,540  -12.67%  budget=100%  solves=1  1s
+      ioa: TSTT=6,153,856  -17.73%  budget=100%  solves=13  6s
+     sndp: TSTT=6,148,634  -17.80%  budget=100%  solves=234  412s
+sndp+descent: TSTT=6,144,157  -17.86%  budget=100%  solves=182  143s
+       ga: TSTT=6,162,531  -17.62%  budget=100%  solves=905  353s
+ga+descent: TSTT=6,151,155  -17.77%  budget=100%  solves=185  194s
